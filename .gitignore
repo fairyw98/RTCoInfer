@@ -1,2 +1,3 @@
 mobilenet_v2_weights/*
 my_mobilevit/mobilevit_weights/*
+.gitignore

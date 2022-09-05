@@ -33,3 +33,17 @@ add the configuration "test_model: ./logs/best_model.pt" in apps/sw_mobilenet_v2
 python swcnn_train.py app:apps/sw_mobilenet_v2.yml
 ```
 
+## Ablation experiments
+The training effect using initialization, clustering, and distillation techniques is significantly improved.
+![img1](assets/img/results.png)
+
+
+## Performance verification with switchable training weights
+The performance of the switchable training weights is similar to the performance of the separately trained weights.
+
+You can download the individually trained weights by clicking on [this link](https://drive.google.com/drive/folders/1RGwLZUXjmtA3b_ok1v3Lcrwx-dGeidMU?usp=sharing).
+
+After putting them under the current folder, you can test the performance of the downloaded weights with the following command.
+```
+python exp_test.py
+```

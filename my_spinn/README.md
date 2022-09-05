@@ -1,6 +1,7 @@
 # SPINN: synergistic progressive inference of neural networks over device and cloud
 
 The implementation of paper : SPINN: synergistic progressive inference of neural networks over device and cloud.
+![img_spinn](../assets/img/spinn.png)
 
 ## Data Resource
 * Experiments are running on the dataset StanfordCars
