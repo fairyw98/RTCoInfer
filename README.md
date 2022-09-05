@@ -2,6 +2,13 @@
 
 The implementation of paper : RTCoInfer: Real-time Edge-Cloud Collaborative CNN Inference for Stream Analytics on Ubiquitous Images. 
 
+## Install
+Clone repo and install requirements.txt in a Python>=3.7.0 environment, including PyTorch>=1.3.1.
+```
+git clone https://github.com/fairyw98/RTCoInfer.git  # clone
+cd RTCoInfer
+pip install -r requirements.txt  # install
+```
 ## Data Resource
 * Experiments are running on the dataset StanfordCars
 * You may follow the data preparation guide [here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html).
