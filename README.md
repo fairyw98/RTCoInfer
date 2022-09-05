@@ -35,7 +35,9 @@ python swcnn_train.py app:apps/sw_mobilenet_v2.yml
 
 ## Ablation experiments
 The training effect using initialization, clustering, and distillation techniques is significantly improved.
-![img1](assets/img/results.png)
+<img src = assets/img/results.png width=60% />
+
+
 
 
 ## Performance verification with switchable training weights
